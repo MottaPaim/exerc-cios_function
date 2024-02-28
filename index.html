@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boas Vindas</title>
+</head>
+
+<body>
+
+  <script>
+    window.onload = function () {      // Quando a página é carregada "Window(janela) onload(carregar)"
+      exibirMensagemDeBoasVindas();    // Executa a function exibirMensagemDeBoasVindas
+    };
+
+    function exibirMensagemDeBoasVindas() {
+      var nomeUsuario = prompt("Por favor, digite seu nome:");  //Prompt para solicitar o nome do usuário
+      var mensagem = "Bem-vindo, " + nomeUsuario + "! Espero que você aproveite sua visita."; // Mensagem + nome fornecido
+      alert(mensagem); // Exibe a mensagem de boas-vindas em um alerta 
+    }
+  </script>
+
+</body>
+
+</html>
